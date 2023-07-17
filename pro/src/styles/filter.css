@@ -1,0 +1,33 @@
+.checkBox {
+    background-color: rgb(23, 28, 40);
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: max-content;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+    border: 2px solid rgb(22, 25, 33);
+}
+
+.line {
+    height: 1px;
+    margin: 0 10px;
+    background-color: #646262;
+}
+
+.checkBox>span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(217, 221, 225);
+}
+
+.clear {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    cursor: pointer;
+    text-decoration-thickness: 1px;
+}
+
+.clear:hover {
+    color: rgb(179, 181, 183);
+}

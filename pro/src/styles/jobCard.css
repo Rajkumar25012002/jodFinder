@@ -1,0 +1,160 @@
+.imagewithdetail>span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    color: rgb(239, 234, 234);
+    margin: 30px auto
+}
+
+.imagewithdetail>img {
+    max-height: 6em;
+    max-width: 6em;
+    background-color: rgb(211, 215, 218);
+    margin: auto;
+    border-radius: 15px;
+}
+
+.separation {
+    /* height: 15em; */
+    display: flex;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.6);
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(38, 48, 68);
+    border-radius: 30px 30px 0px 0px;
+    color: rgb(227, 220, 220);
+}
+
+@media screen and (max-width:1000px) {
+    .separation {
+        flex-direction: column;
+    }
+}
+
+.applysection>div {
+    margin: auto;
+}
+
+.applysection>button {
+    border-radius: 20px;
+    background-color: rgb(47, 121, 126);
+    width: 8em;
+    padding: 5px;
+    font-size: 20px;
+    margin: auto 0px auto auto;
+    ;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(15, 15, 15, 0.5);
+}
+
+.applysection>button:hover {
+    background-color: rgb(33, 103, 107);
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    box-shadow: .0rem .1rem .2rem #504e4e;
+    pointer-events: visible;
+    position: relative;
+    z-index: 0;
+    visibility: visible;
+    float: none;
+}
+
+.parentshow {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    position: relative;
+}
+
+.parentshow>div {
+    padding: 10px;
+}
+
+.parentshow {
+    background-color: rgb(20, 24, 35);
+    padding: 25px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 80px 20px 40px
+}
+
+.jobtitle {
+    border: 1px solid transparent;
+    height: 25px;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(200, 198, 198), #1d2331) border-box;
+    margin-right: 30px;
+}
+
+.jobs {
+    color: rgb(191, 187, 187);
+    font-size: 20px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+.applysection {
+    background-color: rgb(40, 51, 77);
+    border-radius: 0px 0px 30px 30px;
+    color: rgb(222, 227, 231);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.6);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.applysection>.saveicon {
+    color: rgb(194, 198, 202);
+    text-align: left;
+    margin: auto;
+    ;
+    cursor: pointer;
+}
+
+.imagewithdetail {
+    display: flex;
+    padding-left: 25px;
+    flex-direction: row;
+}
+
+.imagewithdetail>span>p {
+    height: 0px;
+    font-weight: 200;
+}
+
+.imagewithdetail>span>p:nth-child(1) {
+    font-weight: 500;
+}
+
+.matchside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px
+}
+
+.matchside>div {
+    text-align: center;
+    ;
+    flex: 1 0 auto;
+    margin: auto;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.circlesize {
+    padding: 5px;
+}
+
+.flexwrapper {
+    padding: 5px;
+}
